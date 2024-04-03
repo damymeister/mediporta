@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import MainComponent from './components/MainComponent';
+import TagsBrowser from './components/TagsBrowser';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MainComponent />
+    <TagsBrowser />
   </React.StrictMode>
 );
 
